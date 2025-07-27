@@ -23,7 +23,7 @@ public class Main {
             race.determineNewLeader(car); // Обновляем лидера гонки.
         }
 
-        System.out.println("Самая быстрая машина: " + race.raceLeader); // Выводим победителя.
+        System.out.println("Самая быстрая машина: " + race.getRaceLeader()); // Выводим победителя.
 
         // Закрываем Scanner по завершении работы.
         scanner.close();

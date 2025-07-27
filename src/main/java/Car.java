@@ -1,10 +1,20 @@
 public class Car {
-    String nameCar; // Название автомобиля.
-    int speedCar; // Скорость автомобиля.
+    private String name; // Название автомобиля.
+    private int speed; // Скорость автомобиля.
 
     // Коснтруктор с параметрами.
-    public Car(String nameCar, int speedCar) {
-        this.nameCar = nameCar;
-        this.speedCar = speedCar;
+    public Car(String name, int speed) {
+        this.name = name;
+        this.speed = speed;
     }
+
+    // Геттеры.
+    public String getName() {
+        return name;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
 }
